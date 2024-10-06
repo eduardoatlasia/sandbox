@@ -22,3 +22,4 @@ with DAG('meu_primeiro_dag',
 
     # Definir ordem de execução das tarefas
     task1 >> task2
+print('a')
